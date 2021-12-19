@@ -85,3 +85,72 @@ function fruitJuiceAlternateMethod(apples,oranges,cutFunction){
 
 
 console.log(fruitJuiceAlternateMethod(5,6,cutIntoPieces));
+
+const years = [1999,2000,2001,2002,2003,2004,2005];
+console.log(years);
+console.log(years.length);
+ 
+const friends = ['Amith','Saileshwar','Ram Deepak'];
+const firstName = 'dayaker reddy';
+
+
+const details = [firstName,'Dev Intern',friends];
+
+console.log(details);
+
+const calcAge = yearOfBirth => 2021-yearOfBirth;
+
+for (const year of years) {
+    console.log(calcAge(year));
+}
+
+
+//Objects
+var dayakersDetails = {
+    firstName:'Dayaker',
+    lastName:'Kandala',
+    age:21,
+    showDetails:function(){
+        console.log(`first name : ${this.firstName},last name : ${this.lastName},Age : ${this.age}`);
+    }
+}
+dayakersDetails.showDetails();
+//var input = prompt("Enter variable: ");
+
+// function Person(name,age,occupation,phoneNumber){
+    
+//     this.name = name;
+//     this.age = age;
+//     this.occupation = occupation
+//     this.phoneNumber = phoneNumber;
+//     this.bio = function() {
+//         console.log(this.name +' '+this.age+' '+this.phoneNumber);
+//     }
+// }
+// var person = new Person('daya',21,'intern',9849353839);
+// person.bio();
+
+function Person(first, last) {
+    this.first = first;
+    this.last = last;
+}
+Person.prototype.fullName = function(){
+    return this.first + ' ' + this.last;
+}
+Person.prototype.fullNameReversed = function(){
+    return this.last + ', ' + this.first;
+}
+Person.prototype.createAge = function(age){
+    this.age = age;
+}
+var s = new Person("Dayaker","reddy");
+console.log(s);
+s.createAge(21);
+console.log(s);
+// console.log(s.fullNameReversed());
+(function () {
+    // some initiation code
+    let firstVariable = 10;
+    let secondVariable = 20;
+    console.log(firstVariable+secondVariable);
+  })();

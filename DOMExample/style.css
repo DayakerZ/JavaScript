@@ -1,0 +1,62 @@
+i{
+    background-color: inherit;
+}
+.score{
+    background-color: inherit;
+}
+.heading{
+    text-align: center;
+}
+label{
+    background-color: inherit;
+}
+#div1{
+    text-align: center;
+    padding: 10px;
+    background-color: gold;
+}
+.a-btn{
+    padding: 5px;
+    margin-left: 3px;
+    background-color: dodgerblue;
+    font-size: 18px;
+    border-radius: 5px;
+    color: aliceblue;
+    border: none;
+}
+#div2{
+    text-align: center;
+    padding: 10px;
+    color:black;
+    background-color:deepskyblue ;
+}
+.number-input{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.btn{
+    padding: 5px;
+    margin-left: 3px;
+    background-color: dodgerblue;
+    font-size: 18px;
+    border-radius: 5px;
+    color: aliceblue;
+    border: none;
+}
+.output-message{
+    font-size: 20px;
+    font-weight: bold;
+    color: cornsilk;
+    background-color: inherit;
+}
+.div3{
+    text-align: center;
+
+}
+.number{
+    visibility: hidden;
+    font-size: 200px;
+    color: aliceblue;
+}
