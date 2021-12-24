@@ -1,0 +1,21 @@
+.div1{
+    border:3px solid whitesmoke;
+    box-shadow:3px 3px 10px grey;
+    width:200px;
+    height:150pX;
+    cursor:pointer;
+    text-align:center;
+    margin-top: 30px;
+    
+  }
+  .div2{
+    margin-top:20px;
+    border:1px solid;
+    width:200px;
+    height:150pX;
+     border:3px solid whitesmoke;
+    box-shadow:3px 3px 10px grey;
+    text-align:center;
+    cursor:pointer;
+
+  }

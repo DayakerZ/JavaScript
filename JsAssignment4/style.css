@@ -1,0 +1,19 @@
+.div{
+    padding: 10px;
+    text-align: center;
+}
+.inc{
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 10px;
+    background-color:gray;
+    border: none;
+    color: aliceblue;
+}
+label{
+    font-size: 20px;
+    margin: 10px;
+}

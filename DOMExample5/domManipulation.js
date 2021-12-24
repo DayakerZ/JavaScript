@@ -6,7 +6,9 @@ const unorderedList = document.querySelector('ul');
 
 const addItem = function(){
     const inputValue = inputItem.value;
-    inputItem.value = '';
+    document.querySelector('p').style.visibility = 'hidden';
+    if(inputValue != ''){
+        inputItem.value = '';
     
     const listItem = document.createElement('li');
     const listSpan = document.createElement('span');
@@ -20,7 +22,10 @@ const addItem = function(){
 
     unorderedList.appendChild(listItem);
     inputItem.focus();
-    
+    }
+    else{
+        document.querySelector('p').style.visibility = 'visible';
+    }
     listButton.addEventListener('click',function(){
         listItem.remove();
     });

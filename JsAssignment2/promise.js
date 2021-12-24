@@ -3,7 +3,7 @@ function getData(uId) {
         setTimeout(() => {
             console.log("Fetched the data!");
             resolve("skc@gmail.com");
-            }, 1000);
+            },4000);
     })
     return promise;
 }
